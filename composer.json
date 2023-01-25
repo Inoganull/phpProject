@@ -1,0 +1,17 @@
+{
+    "name": "project/inoga",
+    "authors": [
+        {
+            "name": "inoga"
+        }
+    ],
+    "require": {
+        "fakerphp/faker": "^1.21"
+    }, 
+    "autoload": {
+        "psr-4": {
+            "Libs\\": "_classes/Libs/", 
+            "Helpers\\": "_classes/Helpers/"
+        }
+    }
+}
